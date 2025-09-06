@@ -851,7 +851,7 @@ class WorldClassUltimateAIEngine:
 
 # Create the ultimate engine instances for compatibility
 ultimate_engine = WorldClassUltimateAIEngine()
-ai_engine = ultimate_engine  # Main compatibility instance
+ai_engine = ultimate_engine()  # Main compatibility instance
 
 print("\n" + "="*80)
 print("🌟 WORLD-CLASS ULTIMATE AI TRADING ENGINE READY!")
@@ -867,3 +867,4 @@ print("   • Advanced Mathematical Models")
 print("   • Bulletproof Error Handling")
 print("   • Full Compatibility Mode")
 print("="*80)
+
